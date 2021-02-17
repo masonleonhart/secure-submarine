@@ -2,6 +2,7 @@
 
 const cookieSession = require('cookie-session');
 const warnings = require('../constants/warnings');
+require('dotenv').config();
 
 /*
   The cookie session makes it so a user can enters their username and password one time,
